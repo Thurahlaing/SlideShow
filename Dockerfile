@@ -9,4 +9,4 @@ COPY KOKO3.jpg /usr/share/nginx/html
 COPY script.js /usr/share/nginx/html
 COPY style.css /usr/share/nginx/html
 
-CMD cd /usr/share/nginx/html && sed -e s/Docker/"$AUTHOR"/ SlideShow.html > index.html
+CMD cd /usr/share/nginx/html && sed -e s/Docker/"$AUTHOR"/ SlideShow.html > index.html; nginx -g 'daemon off;'
