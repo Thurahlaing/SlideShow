@@ -3,7 +3,7 @@ MAINTAINER THURA HLAING thurahlaing.pthgtoup@gmail.com
 ENV AUTHOR=Docker
 
 WORKDIR /usr/share/nginx/html
-COPY ["SlideShow",
+COPY ["SlideShow.html",
      "KOKO1.jpg",
      "KOKO2.jpg",
      "KOKO3.jpg",
