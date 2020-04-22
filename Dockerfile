@@ -1,4 +1,5 @@
 FROM nginx
+MAINTAINER THURA HLAING thurahlaing.pthgtoup@gmail.com
 ENV AUTHOR=Docker
 
 WORKDIR /usr/share/nginx/html
