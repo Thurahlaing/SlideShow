@@ -1,6 +1,6 @@
 FROM nginx
 MAINTAINER THURA HLAING thurahlaing.pthgtoup@gmail.com
-ENV AUTHOR=Docker
+ENV AUTHOR=THURA HLAING
 
 WORKDIR /usr/share/nginx/html
 COPY SlideShow.html KOKO1.jpg KOKO2.jpg KOKO3.jpg script.js style.css /usr/share/nginx/html/
